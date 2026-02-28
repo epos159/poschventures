@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #ffffff;
+  color: #1a1a1a;
+  line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-header {
+  padding: 1rem 1.5rem;
+}
+
+.back-link {
+  font-size: 0.9rem;
+  color: #555;
+  text-decoration: none;
+}
+
+.back-link:hover {
+  color: #1a1a1a;
+}
+
+.app-main {
+  flex: 1;
+  max-width: 480px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem;
+  text-align: center;
+}
+
+.app-icon {
+  width: 120px;
+  height: 120px;
+  margin-bottom: 1.5rem;
+  border-radius: 24px;
+}
+
+.app-banner {
+  max-width: 640px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 1.5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.app-main h1 {
+  font-size: 1.75rem;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.app-tagline {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 1.5rem;
+}
+
+.app-description {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.app-highlights {
+  font-size: 0.95rem;
+  font-weight: 600;
+  margin-bottom: 2rem;
+}
+
+.app-store-links {
+  margin-bottom: 2rem;
+}
+
+.store-link {
+  font-size: 1rem;
+  color: #1a1a1a;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+}
+
+.store-link:hover {
+  color: #555;
+}
+
+.store-sep {
+  margin: 0 0.5rem;
+  color: #999;
+}
+
+.app-legal {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.app-legal a {
+  font-size: 0.9rem;
+  color: #555;
+  text-decoration: none;
+}
+
+.app-legal a:hover {
+  color: #1a1a1a;
+  text-decoration: underline;
+}
+
+.app-footer {
+  padding: 1.5rem;
+  text-align: center;
+  border-top: 1px solid #e8e8e8;
+}
+
+.app-footer a {
+  font-size: 0.9rem;
+  color: #555;
+  text-decoration: none;
+}
+
+.app-footer a:hover {
+  color: #1a1a1a;
+  text-decoration: underline;
+}

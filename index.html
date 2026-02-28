@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Posch Ventures</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="nav-bar">
+    <a href="index.html" class="nav-logo">
+      <img src="assets/pv_banner.png" alt="Posch Ventures">
+    </a>
+    <nav class="nav-links">
+      <div class="nav-dropdown">
+        <button class="nav-link nav-dropdown-trigger" aria-expanded="false" aria-haspopup="true">
+          Apps
+        </button>
+        <ul class="nav-dropdown-menu">
+          <li><a href="apps/fff/">Faith Focus Friend</a></li>
+          <li><a href="apps/boardcalc/">BoardCalc</a></li>
+        </ul>
+      </div>
+      <a href="privacy.html" class="nav-link">Privacy Policy</a>
+      <a href="disclaimer.html" class="nav-link">Disclaimer</a>
+    </nav>
+  </header>
+
+  <main class="hero">
+    <img src="assets/pv_banner.png" alt="Posch Ventures" class="hero-logo">
+    <p class="hero-subheading">An independent portfolio of digital products and ventures.</p>
+    <p class="hero-tagline">Currently home to Faith Focus Friend.</p>
+  </main>
+
+  <section class="current-project">
+    <h2 class="section-title">Current Projects</h2>
+    <div class="project-cards">
+      <article class="project-card">
+        <div class="card-content">
+          <img src="assets/fff/fff_logo.png" alt="Faith Focus Friend" class="card-logo">
+          <div class="card-body">
+            <h3 class="card-title">Faith Focus Friend</h3>
+            <p class="card-description">Helps kids stay engaged during services by listening for words parents choose.</p>
+            <a href="apps/fff/" class="card-button">View App</a>
+          </div>
+        </div>
+      </article>
+      <article class="project-card">
+        <div class="card-content">
+          <img src="assets/boardcalc/boardcalc_square.png" alt="BoardCalc" class="card-logo">
+          <div class="card-body">
+            <h3 class="card-title">BoardCalc</h3>
+            <p class="card-description">A construction calculator for H/V, board feet, stairs, arcs, roofs, and more.</p>
+            <a href="apps/boardcalc/" class="card-button">View App</a>
+          </div>
+        </div>
+      </article>
+    </div>
+    <p class="project-note">Additional ventures in development.</p>
+  </section>
+
+  <footer class="footer">
+    <nav class="footer-nav">
+      <a href="privacy.html">Privacy Policy</a>
+      <a href="disclaimer.html">Disclaimer</a>
+      <a href="mailto:support@poschventures.com">Contact</a>
+    </nav>
+    <p class="footer-copy">© 2026 Posch Ventures. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
