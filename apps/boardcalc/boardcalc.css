@@ -30,27 +30,17 @@ body {
 
 .app-main {
   flex: 1;
-  max-width: 480px;
+  max-width: 960px;
   margin: 0 auto;
   padding: 2rem 1.5rem 4rem;
   text-align: center;
 }
 
 .app-icon {
-  width: 120px;
-  height: 120px;
+  width: 240px;
+  height: 240px;
   margin-bottom: 1.5rem;
   border-radius: 24px;
-}
-
-.app-banner {
-  max-width: 640px;
-  width: 100%;
-  height: auto;
-  margin-bottom: 1.5rem;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .app-main h1 {
@@ -75,6 +65,27 @@ body {
   font-size: 0.95rem;
   font-weight: 600;
   margin-bottom: 2rem;
+}
+
+.app-screenshot {
+  margin: 2.5rem 0;
+}
+
+.app-screenshot img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.app-screenshot figcaption {
+  font-size: 0.95rem;
+  color: #555;
+  margin-top: 1rem;
+  line-height: 1.5;
+  text-align: center;
 }
 
 .app-store-links {
