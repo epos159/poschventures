@@ -57,48 +57,37 @@
       </div>
     </section>
 
-    <section class="feature-grid" aria-label="Key features">
-      <article class="feature-card">
-        <h2>Simple Parent Setup</h2>
-        <p>Parents quickly choose listening words and start a session in seconds.</p>
-      </article>
-      <article class="feature-card">
-        <h2>Kid-Friendly Focus Mode</h2>
-        <p>Children stay active and attentive by tapping words as they hear them.</p>
-      </article>
-      <article class="feature-card">
-        <h2>Creative Drawing Break</h2>
-        <p>Drawing mode helps little hands stay busy while attention stays on the service.</p>
-      </article>
-    </section>
-
-    <section class="screenshot-section" aria-label="Faith Focus Friend screenshots">
-      <h2>See Faith Focus Friend in action</h2>
-      <div class="screenshot-grid">
-        <figure>
-          <img src="../../assets/fff/screenshots/menu.jpg" alt="Faith Focus Friend main menu">
-          <figcaption>Main menu and quick session start.</figcaption>
-        </figure>
-        <figure>
-          <img src="../../assets/fff/screenshots/parent_settings.jpg" alt="Faith Focus Friend parent settings screen">
-          <figcaption>Parent settings for session customization.</figcaption>
-        </figure>
-        <figure>
-          <img src="../../assets/fff/screenshots/count.jpg" alt="Faith Focus Friend listening count screen">
-          <figcaption>Live listening count during the session.</figcaption>
-        </figure>
-        <figure>
-          <img src="../../assets/fff/screenshots/drawing.jpg" alt="Faith Focus Friend drawing mode">
-          <figcaption>Drawing mode for creative engagement.</figcaption>
-        </figure>
-        <figure>
-          <img src="../../assets/fff/screenshots/review.jpg" alt="Faith Focus Friend review screen">
-          <figcaption>Session review and progress reflection.</figcaption>
-        </figure>
-        <figure>
-          <img src="../../assets/fff/screenshots/avatars.jpg" alt="Faith Focus Friend avatar selection">
-          <figcaption>Avatar options for a fun, friendly experience.</figcaption>
-        </figure>
+    <section class="cards-carousel-section" aria-label="Faith Focus Friend features">
+      <div class="cards-stack">
+        <article class="feature-card feature-card-selectable is-active" data-carousel="parent" tabindex="0" role="button">
+          <h2>Simple Parent Setup</h2>
+          <p>Parents quickly choose listening words and start a session in seconds.</p>
+        </article>
+        <article class="feature-card feature-card-selectable" data-carousel="focus" tabindex="0" role="button">
+          <h2>Kid-Friendly Focus Mode</h2>
+          <p>Children stay active and attentive by tapping words as they hear them.</p>
+        </article>
+        <article class="feature-card feature-card-selectable" data-carousel="drawing" tabindex="0" role="button">
+          <h2>Creative Drawing Break</h2>
+          <p>Drawing mode helps little hands stay busy while attention stays on the service.</p>
+        </article>
+      </div>
+      <div class="carousel-panel">
+        <div class="carousel-viewport">
+          <div class="carousel-track" data-carousel="parent">
+            <div class="phone-mockup"><img src="../../assets/fff/screenshots/menu.jpg" alt="Faith Focus Friend main menu" loading="lazy"></div>
+            <div class="phone-mockup"><img src="../../assets/fff/screenshots/parent_settings.jpg" alt="Faith Focus Friend parent settings" loading="lazy"></div>
+          </div>
+          <div class="carousel-track" data-carousel="focus">
+            <div class="phone-mockup"><img src="../../assets/fff/screenshots/count.jpg" alt="Faith Focus Friend listening count" loading="lazy"></div>
+            <div class="phone-mockup"><img src="../../assets/fff/screenshots/review.jpg" alt="Faith Focus Friend session review" loading="lazy"></div>
+          </div>
+          <div class="carousel-track" data-carousel="drawing">
+            <div class="phone-mockup"><img src="../../assets/fff/screenshots/drawing.jpg" alt="Faith Focus Friend drawing mode" loading="lazy"></div>
+            <div class="phone-mockup"><img src="../../assets/fff/screenshots/avatars.jpg" alt="Faith Focus Friend avatar selection" loading="lazy"></div>
+          </div>
+        </div>
+        <div class="carousel-dots" aria-label="Carousel position"></div>
       </div>
     </section>
 
@@ -123,5 +112,6 @@
     <a href="mailto:support@poschventures.com">support@poschventures.com</a>
   </footer>
   <script src="../../script.js"></script>
+  <script src="fff.js"></script>
 </body>
 </html>
