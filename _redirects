@@ -1,0 +1,17 @@
+# Consolidate to canonical URLs – reduces "Canonical points to redirect" in Ahrefs
+# Canonical = no trailing slash (must return 200, not redirect)
+
+# HTTP to HTTPS (fixes "Canonical from HTTP to HTTPS")
+http://poschventures.com/* https://poschventures.com/:splat 301
+http://www.poschventures.com/* https://poschventures.com/:splat 301
+
+# Root index
+/index.html / 301
+
+# App directory index pages → canonical (no slash)
+/apps/boardcalc/index.html /apps/boardcalc 301
+/apps/fff/index.html /apps/fff 301
+
+# Trailing slash → canonical (no slash)
+/apps/boardcalc/ /apps/boardcalc 301
+/apps/fff/ /apps/fff 301

@@ -287,13 +287,19 @@ body {
   border-top: 1px solid #e8e8e8;
 }
 
-.fff-footer a {
+.fff-footer-nav {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+.fff-footer-nav a {
   font-size: 0.9rem;
   color: #555;
   text-decoration: none;
 }
 
-.fff-footer a:hover {
+.fff-footer-nav a:hover {
   color: #1a1a1a;
   text-decoration: underline;
 }

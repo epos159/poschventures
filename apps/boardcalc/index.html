@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>BoardCalc – Construction Calculator App for Contractors & Carpenters | Posch Ventures</title>
-  <meta name="description" content="BoardCalc is a professional construction calculator app for contractors and carpenters. Stair calculator, roof pitch, board feet, H/V framing, arc calcs. Free to start on iOS and Android.">
+  <title>BoardCalc – Construction Calculator for Contractors | Posch Ventures</title>
+  <meta name="description" content="BoardCalc: construction calculator app for contractors. Stair, roof, board feet, H/V framing. Free to start on iOS and Android.">
   <meta name="keywords" content="construction calculator app, stair calculator, roof pitch calculator, board feet calculator, contractor calculator, carpenter app, framing calculator, hip roof calculator">
-  <link rel="canonical" href="https://poschventures.com/apps/boardcalc/">
+  <link rel="canonical" href="https://poschventures.com/apps/boardcalc">
   <meta property="og:title" content="BoardCalc – Construction Calculator App for Contractors | Posch Ventures">
   <meta property="og:description" content="Professional construction calculator for contractors and carpenters. Stair, roof, board feet, H/V framing. Free to start on iOS and Android.">
-  <meta property="og:url" content="https://poschventures.com/apps/boardcalc/">
+  <meta property="og:url" content="https://poschventures.com/apps/boardcalc">
   <meta property="og:type" content="website">
   <meta property="og:image" content="https://poschventures.com/assets/boardcalc/boardcalc_square.png">
   <meta property="og:image:alt" content="BoardCalc construction calculator app icon">
@@ -29,49 +29,37 @@
       "@context": "https://schema.org",
       "@type": "SoftwareApplication",
       "name": "BoardCalc",
-      "applicationCategory": "UtilitiesApplication",
+      "applicationCategory": "https://schema.org/UtilitiesApplication",
       "operatingSystem": "iOS, Android",
-      "description": "Professional construction calculator for contractors and carpenters. Includes stair calculator, roof pitch calculator, board feet calculator, H/V framing, and arc calculations. Designed for fast on-site use.",
+      "description": "Professional construction calculator for contractors and carpenters. Stair, roof, board feet, H/V framing calculations.",
       "offers": {
         "@type": "Offer",
         "price": "0",
-        "priceCurrency": "USD"
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock"
       },
-      "featureList": [
-        "Stair calculator with rise, run, and stringer calculations",
-        "Hip roof and rafter calculator",
-        "Board feet calculator",
-        "H/V framing and layout tools",
-        "Arc and radius calculations",
-        "Fast input screens for job-site use"
-      ],
-      "screenshot": [
-        "https://poschventures.com/assets/boardcalc/screenshots/stair_entry.jpg",
-        "https://poschventures.com/assets/boardcalc/screenshots/stair_results.jpg",
-        "https://poschventures.com/assets/boardcalc/screenshots/hip_entry.jpg",
-        "https://poschventures.com/assets/boardcalc/screenshots/hip_result.jpg"
-      ],
+      "featureList": "Stair calculator, hip roof calculator, board feet, H/V framing, arc calculations",
       "image": "https://poschventures.com/assets/boardcalc/boardcalc_square.png",
       "publisher": {
         "@type": "Organization",
         "name": "Posch Ventures",
-        "url": "https://poschventures.com/"
+        "url": "https://poschventures.com"
       },
-      "url": "https://poschventures.com/apps/boardcalc/"
+      "url": "https://poschventures.com/apps/boardcalc"
     }
   </script>
 </head>
 <body>
   <header class="nav-bar">
-    <a href="../../index.html" class="nav-logo">
+    <a href="/" class="nav-logo">
       <img src="../../assets/pv_banner.png" alt="Posch Ventures – digital products and ventures">
     </a>
     <nav class="nav-links">
       <div class="nav-dropdown">
         <button class="nav-link nav-dropdown-trigger" aria-expanded="false" aria-haspopup="true">Apps</button>
         <ul class="nav-dropdown-menu">
-          <li><a href="../fff/">Faith Focus Friend</a></li>
-          <li><a href="index.html">BoardCalc</a></li>
+          <li><a href="/apps/fff">Faith Focus Friend</a></li>
+          <li><a href="/apps/boardcalc">BoardCalc</a></li>
         </ul>
       </div>
       <a href="../../privacy.html" class="nav-link">Privacy Policy</a>
@@ -152,7 +140,11 @@
   </main>
 
   <footer class="app-footer">
-    <a href="mailto:support@poschventures.com">support@poschventures.com</a>
+    <nav class="app-footer-nav">
+      <a href="/">Home</a>
+      <a href="/apps/boardcalc">BoardCalc</a>
+      <a href="mailto:support@poschventures.com">Contact</a>
+    </nav>
   </footer>
   <script src="../../script.js"></script>
   <script src="boardcalc.js"></script>
