@@ -161,14 +161,8 @@ body {
 
 .project-cards {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2rem;
-}
-
-@media (max-width: 900px) {
-  .project-cards {
-    grid-template-columns: 1fr;
-  }
 }
 
 .section-title {
