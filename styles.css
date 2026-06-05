@@ -235,6 +235,14 @@ body {
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.16);
 }
 
+.card-button-muted {
+  background: #888;
+}
+
+.card-button-muted:hover {
+  background: #666;
+}
+
 .project-note {
   font-size: 0.9rem;
   color: #888;
