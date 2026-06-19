@@ -1,0 +1,51 @@
+.legal-main {
+  flex: 1;
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 2rem 1.5rem 4rem;
+}
+
+.legal-main h1 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+
+.legal-app {
+  font-size: 0.95rem;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.legal-content {
+  text-align: left;
+}
+
+.legal-content section {
+  margin-bottom: 2rem;
+}
+
+.legal-content h2 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.legal-content p {
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.legal-content a {
+  color: #1a1a1a;
+  text-decoration: underline;
+}
+
+.legal-content a:hover {
+  color: #555;
+}
+
+.app-legal {
+  margin-top: 2.5rem;
+}
