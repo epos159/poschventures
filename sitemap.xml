@@ -91,6 +91,11 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://poschventures.com/apps/overdue/delete-data</loc>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
     <loc>https://poschventures.com/apps/overdue/disclaimer</loc>
     <changefreq>yearly</changefreq>
     <priority>0.3</priority>

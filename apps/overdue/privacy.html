@@ -70,10 +70,42 @@
       <section>
         <h2>ISBN Lookup</h2>
         <p>
-          When you scan or enter an ISBN, the app may send that number to Open Library
-          and Google Books to fetch title, author, and cover details. Those services receive
-          the ISBN you request—not your full library. Their privacy policies govern how
-          they handle that request.
+          When you scan or enter an ISBN, the app sends that number over an encrypted
+          connection (HTTPS) to Open Library and Google Books to fetch title, author,
+          and cover details. <strong>We do not receive or store that lookup on our
+          servers</strong>—Posch Ventures has no backend that keeps your ISBN requests
+          or library data. Those third-party services receive only the ISBN you
+          request, not your full library.
+        </p>
+        <p>
+          We cannot delete information held by Open Library or Google on your behalf.
+          Their policies govern any data they process:
+          <a href="https://openlibrary.org/help/faq" rel="noopener noreferrer">Open Library</a>,
+          <a href="https://policies.google.com/privacy" rel="noopener noreferrer">Google Privacy Policy</a>.
+        </p>
+      </section>
+
+      <section id="delete-your-data">
+        <h2>Deleting Your Data</h2>
+        <p>
+          All library, loan, genre, and settings data stored by Overdue lives on your
+          device. You can permanently delete it at any time:
+        </p>
+        <ol>
+          <li>Open <strong>Overdue</strong></li>
+          <li>Go to <strong>Settings</strong></li>
+          <li>Scroll to <strong>Danger Zone</strong></li>
+          <li>Tap <strong>Reset All Data</strong></li>
+          <li>Type <strong>DELETE</strong> to confirm</li>
+        </ol>
+        <p>
+          This removes your books, loans, genres, notes, and settings from the app on
+          that device. We do not retain a copy. Uninstalling the app also removes local
+          app data. Files you exported or backed up elsewhere (email, cloud drive, etc.)
+          remain until you delete them in those locations.
+        </p>
+        <p>
+          See also: <a href="delete-data">Delete your data</a> (step-by-step for app stores).
         </p>
       </section>
 
@@ -92,9 +124,11 @@
       <section>
         <h2>Device Permissions</h2>
         <p>
-          Overdue may request camera access (ISBN scanning and cover photos), photo
-          library access (choosing existing cover images), and file access (backups and
-          exports). You can deny permissions in device settings; related features may not work.
+          Overdue may request camera access (ISBN scanning and cover photos). On Android,
+          choosing a cover image uses the system photo picker (one image at a time—we do
+          not request broad access to your photo library). The app may also use file access
+          for backups and exports. You can deny permissions in device settings; related
+          features may not work.
         </p>
       </section>
 
@@ -126,6 +160,7 @@
 
     <nav class="app-legal">
       <a href="/apps/overdue/">App</a>
+      <a href="delete-data">Delete Data</a>
       <a href="disclaimer">Disclaimer</a>
       <a href="terms">Terms of Service</a>
     </nav>
