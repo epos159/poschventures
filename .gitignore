@@ -5,3 +5,7 @@ Thumbs.db
 # Editor
 .vscode/
 .idea/
+
+# Wrangler
+.wrangler/
+.dev.vars*
