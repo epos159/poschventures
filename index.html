@@ -3,18 +3,23 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Posch Ventures – Faith Focus Friend, BoardCalc & Lumberly</title>
-  <meta name="description" content="Posch Ventures: Faith Focus Friend, BoardCalc, and Lumberly—practical apps and tools for families, contractors, and estimators.">
+  <title>Posch Ventures – Mobile Apps &amp; Web Tools for Families and Trades</title>
+  <meta name="description" content="Posch Ventures builds mobile apps and web tools for families and trades: Faith Focus Friend, BoardCalc, ToolVault, Overdue, Lumberly, SiteScope, DrawScope, and Bidster.">
+  <meta name="keywords" content="Posch Ventures, construction apps, estimator tools, mobile apps, Faith Focus Friend, BoardCalc, ToolVault, Overdue, Lumberly, SiteScope">
   <link rel="canonical" href="https://poschventures.com/">
-  <meta property="og:title" content="Posch Ventures – Faith Focus Friend, BoardCalc & Lumberly">
-  <meta property="og:description" content="Posch Ventures: Faith Focus Friend, BoardCalc, and Lumberly—practical apps and tools for families, contractors, and estimators.">
+  <link rel="icon" type="image/png" href="/assets/pv_banner.png">
+  <meta property="og:title" content="Posch Ventures – Mobile Apps &amp; Web Tools for Families and Trades">
+  <meta property="og:description" content="Mobile apps and web tools for families and trades—calculators, inventory, book tracking, takeoffs, site research, and field checklists.">
   <meta property="og:url" content="https://poschventures.com/">
   <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Posch Ventures">
   <meta property="og:image" content="https://poschventures.com/assets/pv_banner.png">
+  <meta property="og:image:alt" content="Posch Ventures logo">
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Posch Ventures – Faith Focus Friend, BoardCalc & Lumberly">
-  <meta name="twitter:description" content="Posch Ventures: Faith Focus Friend, BoardCalc, and Lumberly.">
+  <meta name="twitter:title" content="Posch Ventures – Mobile Apps &amp; Web Tools">
+  <meta name="twitter:description" content="Mobile apps and web tools for families and trades from Posch Ventures.">
   <meta name="twitter:image" content="https://poschventures.com/assets/pv_banner.png">
+  <meta name="twitter:image:alt" content="Posch Ventures logo">
   <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-3ZSH3QSKG0"></script>
   <script>
@@ -33,17 +38,44 @@
   <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "Organization",
-      "name": "Posch Ventures",
-      "url": "https://poschventures.com",
-      "email": "support@poschventures.com"
+      "@graph": [
+        {
+          "@type": "Organization",
+          "@id": "https://poschventures.com/#organization",
+          "name": "Posch Ventures",
+          "url": "https://poschventures.com",
+          "logo": "https://poschventures.com/assets/pv_banner.png",
+          "email": "support@poschventures.com"
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://poschventures.com/#website",
+          "name": "Posch Ventures",
+          "url": "https://poschventures.com",
+          "publisher": { "@id": "https://poschventures.com/#organization" }
+        },
+        {
+          "@type": "ItemList",
+          "name": "Posch Ventures products",
+          "itemListElement": [
+            { "@type": "ListItem", "position": 1, "name": "Faith Focus Friend", "url": "https://poschventures.com/apps/fff/" },
+            { "@type": "ListItem", "position": 2, "name": "BoardCalc", "url": "https://poschventures.com/apps/boardcalc/" },
+            { "@type": "ListItem", "position": 3, "name": "ToolVault", "url": "https://poschventures.com/apps/toolvault/" },
+            { "@type": "ListItem", "position": 4, "name": "Overdue", "url": "https://poschventures.com/apps/overdue/" },
+            { "@type": "ListItem", "position": 5, "name": "Lumberly", "url": "https://lumberly.poschventures.com/" },
+            { "@type": "ListItem", "position": 6, "name": "SiteScope", "url": "https://sitescope.poschventures.com/" },
+            { "@type": "ListItem", "position": 7, "name": "DrawScope", "url": "https://drawscope.poschventures.com/" },
+            { "@type": "ListItem", "position": 8, "name": "Bidster", "url": "https://bidster.poschventures.com/" }
+          ]
+        }
+      ]
     }
   </script>
 </head>
 <body>
   <header class="nav-bar">
     <a href="/" class="nav-logo">
-      <img src="assets/pv_banner.png" alt="Posch Ventures">
+      <img src="assets/pv_banner.png" alt="Posch Ventures logo">
     </a>
     <nav class="nav-links">
       <div class="nav-dropdown">
@@ -67,18 +99,19 @@
   </header>
 
   <main class="hero">
-    <img src="assets/pv_banner.png" alt="Posch Ventures" class="hero-logo">
+    <img src="assets/pv_banner.png" alt="Posch Ventures – mobile apps and web tools for families and trades" class="hero-logo">
     <h1 class="sr-only">Posch Ventures</h1>
     <p class="hero-subheading">An independent portfolio of digital products and ventures.</p>
-    <p class="hero-tagline">Faith Focus Friend, BoardCalc, and Lumberly.</p>
+    <p class="hero-tagline">Mobile apps and web tools for families and trades.</p>
   </main>
 
   <section class="current-project">
     <h2 class="section-title">Current Projects</h2>
+    <h3 class="section-title">Mobile Apps</h3>
     <div class="project-cards">
       <article class="project-card">
         <div class="card-content">
-          <img src="assets/fff/fff_logo.png" alt="Faith Focus Friend" class="card-logo">
+          <img src="assets/fff/fff_logo.png" alt="Faith Focus Friend app icon" class="card-logo">
           <div class="card-body">
             <h3 class="card-title">Faith Focus Friend</h3>
             <p class="card-description">Helps kids stay engaged during services by listening for words parents choose.</p>
@@ -88,7 +121,7 @@
       </article>
       <article class="project-card">
         <div class="card-content">
-          <img src="assets/boardcalc/boardcalc_square.png" alt="BoardCalc" class="card-logo">
+          <img src="assets/boardcalc/boardcalc_square.png" alt="BoardCalc construction calculator app icon" class="card-logo">
           <div class="card-body">
             <h3 class="card-title">BoardCalc</h3>
             <p class="card-description">A construction calculator for H/V, board feet, stairs, arcs, roofs, and more.</p>
@@ -98,47 +131,7 @@
       </article>
       <article class="project-card">
         <div class="card-content">
-          <img src="assets/lumberly/lumberly_logo.png" alt="Lumberly" class="card-logo">
-          <div class="card-body">
-            <h3 class="card-title">Lumberly</h3>
-            <p class="card-description">Web-based framing takeoff for estimators—joists, studs, roof framing, and sheathing—so you can price lumber without waiting on the yard.</p>
-            <a href="https://lumberly.poschventures.com/" class="card-button" target="_blank" rel="noopener noreferrer">Open App</a>
-          </div>
-        </div>
-      </article>
-      <article class="project-card">
-        <div class="card-content">
-          <img src="assets/sitescope/sitescope_logo.png" alt="SiteScope" class="card-logo">
-          <div class="card-body">
-            <h3 class="card-title">SiteScope</h3>
-            <p class="card-description">Pre-construction site research for Pennsylvania—parcels, flood zones, soil, topography, and municipal data on a map.</p>
-            <a href="https://sitescope.poschventures.com/" class="card-button" target="_blank" rel="noopener noreferrer">Open App</a>
-          </div>
-        </div>
-      </article>
-      <article class="project-card">
-        <div class="card-content">
-          <img src="assets/drawscope/drawscope_logo.svg" alt="DrawScope" class="card-logo">
-          <div class="card-body">
-            <h3 class="card-title">DrawScope</h3>
-            <p class="card-description">Residential and commercial drawing review checklists—work through plans, export PDF, and share with your team.</p>
-            <a href="https://drawscope.poschventures.com/" class="card-button" target="_blank" rel="noopener noreferrer">Open App</a>
-          </div>
-        </div>
-      </article>
-      <article class="project-card">
-        <div class="card-content">
-          <img src="assets/bidster/bidster_logo.svg" alt="Bidster" class="card-logo">
-          <div class="card-body">
-            <h3 class="card-title">Bidster</h3>
-            <p class="card-description">Field checklist for estimators—scope kitchen, bath, addition, and custom home work so nothing gets missed on the bid.</p>
-            <a href="https://bidster.poschventures.com/" class="card-button" target="_blank" rel="noopener noreferrer">Open App</a>
-          </div>
-        </div>
-      </article>
-      <article class="project-card">
-        <div class="card-content">
-          <img src="assets/toolvault/toolvault_icon512.png" alt="ToolVault" class="card-logo">
+          <img src="assets/toolvault/toolvault_icon512.png" alt="ToolVault tool inventory app icon" class="card-logo">
           <div class="card-body">
             <h3 class="card-title">ToolVault</h3>
             <p class="card-description">Track tools by drawer, manage loans, scan barcodes, and export reports—local-first, on your device.</p>
@@ -148,11 +141,55 @@
       </article>
       <article class="project-card">
         <div class="card-content">
-          <img src="assets/overdue/main_icon.png" alt="Overdue" class="card-logo">
+          <img src="assets/overdue/main_icon.png" alt="Overdue personal book tracker app icon" class="card-logo">
           <div class="card-body">
             <h3 class="card-title">Overdue</h3>
             <p class="card-description">Personal book tracker—library, reading progress, ISBN lookup, loans, and exports. Local-first, on your device.</p>
             <a href="/apps/overdue/" class="card-button">View App</a>
+          </div>
+        </div>
+      </article>
+    </div>
+
+    <h3 class="section-title">Web Tools</h3>
+    <div class="project-cards">
+      <article class="project-card">
+        <div class="card-content">
+          <img src="assets/lumberly/lumberly_logo.png" alt="Lumberly lumber takeoff web app logo" class="card-logo">
+          <div class="card-body">
+            <h3 class="card-title">Lumberly</h3>
+            <p class="card-description">Web-based framing takeoff for estimators—joists, studs, roof framing, and sheathing—so you can price lumber without waiting on the yard.</p>
+            <a href="https://lumberly.poschventures.com/" class="card-button" target="_blank" rel="noopener noreferrer">Open App</a>
+          </div>
+        </div>
+      </article>
+      <article class="project-card">
+        <div class="card-content">
+          <img src="assets/sitescope/sitescope_logo.png" alt="SiteScope pre-construction site research web app logo" class="card-logo">
+          <div class="card-body">
+            <h3 class="card-title">SiteScope</h3>
+            <p class="card-description">Pre-construction site research for Pennsylvania—parcels, flood zones, soil, topography, and municipal data on a map.</p>
+            <a href="https://sitescope.poschventures.com/" class="card-button" target="_blank" rel="noopener noreferrer">Open App</a>
+          </div>
+        </div>
+      </article>
+      <article class="project-card">
+        <div class="card-content">
+          <img src="assets/drawscope/drawscope_logo.svg" alt="DrawScope drawing review checklist web app logo" class="card-logo">
+          <div class="card-body">
+            <h3 class="card-title">DrawScope</h3>
+            <p class="card-description">Residential and commercial drawing review checklists—work through plans, export PDF, and share with your team.</p>
+            <a href="https://drawscope.poschventures.com/" class="card-button" target="_blank" rel="noopener noreferrer">Open App</a>
+          </div>
+        </div>
+      </article>
+      <article class="project-card">
+        <div class="card-content">
+          <img src="assets/bidster/bidster_logo.svg" alt="Bidster field estimating checklist web app logo" class="card-logo">
+          <div class="card-body">
+            <h3 class="card-title">Bidster</h3>
+            <p class="card-description">Field checklist for estimators—scope kitchen, bath, addition, and custom home work so nothing gets missed on the bid.</p>
+            <a href="https://bidster.poschventures.com/" class="card-button" target="_blank" rel="noopener noreferrer">Open App</a>
           </div>
         </div>
       </article>
