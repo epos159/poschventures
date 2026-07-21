@@ -5,11 +5,13 @@
 
 /apps/boardcalc/index.html /apps/boardcalc/ 301
 /apps/fff/index.html /apps/fff/ 301
+/apps/proseuche/index.html /apps/proseuche/ 301
 /apps/toolvault/index.html /apps/toolvault/ 301
 /apps/overdue/index.html /apps/overdue/ 301
 
 # Optional: no trailing slash → with trailing slash (single direction; matches typical static hosting)
 /apps/boardcalc /apps/boardcalc/ 301
 /apps/fff /apps/fff/ 301
+/apps/proseuche /apps/proseuche/ 301
 /apps/toolvault /apps/toolvault/ 301
 /apps/overdue /apps/overdue/ 301
